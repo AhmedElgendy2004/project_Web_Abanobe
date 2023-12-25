@@ -1,0 +1,86 @@
+body{
+margin: 50px;
+padding: 0px;
+font-family: sans-serif;
+color: aliceblue;
+background: #1f1e1e;
+}
+.color2{
+    color: aquamarine;
+}
+h1{
+    font-size: 40px;
+    margin: 0%;
+    padding-top: 10px;
+
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    text-align: center;
+    font-size: 20px;
+    margin: 0%;
+    padding-top: 10px;
+
+}
+p{
+    font-size: 17px;
+}
+
+
+.text{
+    text-align: center;
+   
+
+}
+
+a{
+    text-decoration: none;
+}
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+    margin: 40px 0;
+
+    
+
+}
+.T1{
+   width: 45%;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    box-sizing: border-box;
+     float: left;
+     text-align: center;
+     cursor: pointer;
+     padding-top: 10px;
+     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25) , 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: .4s;
+}
+.T1 img{
+    filter: grayscale(90%);
+}
+.T1:hover{
+    box-shadow: 0 30px 6px rgba(0, 0, 0, 0.16) , 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px,-8px);
+
+}
+.social img{
+
+    width: 25px;
+    transition: 0.4s;
+    filter: grayscale(0%);
+}
+.social img:hover{
+    transform: scale(1.2);
+}
+.l{
+    margin-left: 320px;
+
+}
